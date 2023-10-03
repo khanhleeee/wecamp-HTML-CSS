@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Lato font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./global_styles.css">
+  <title>Wecamp: CLASS 1 + 2: HTML - CSS</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <!-- CLASS 01: HTML - CSS -->
+    <header id="header">
+      <nav>
+        <a class='nav-item' href="#home">HOME</a>
+        <a class='nav-item' href="#about">
+          <i class="fa-solid fa-user"></i> ABOUT
+        </a>
+        <a class='nav-item' href="#portfolio">
+          <i class="fa-solid fa-grip"></i> PORTFOLIO
+        </a>
+        <a class='nav-item' href="#contact">
+          <i class="fa-solid fa-envelope"></i> CONTACT
+        </a>
+      </nav>
+      <span class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </span>
+    </header>
+
+    <!-- HOME -->
+    <section id="home">
+      <div class="bg-container home-bg">
+        <span class="logo">MY WEBSITE LOGO</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container">
+      <h3 class="title text-center">ABOUT ME</h3>
+      <p class="text-center my-15"><em>I love photography</em></p>
+      <p class="my-15">We have created a fictional "personal" website/blog, and our fictional character is a hobby
+        photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+
+      <div class="profile">
+        <!-- Avatar -->
+        <div class="avatar-container py-12 px-24">
+          <p class="avatar-name">
+            <i class="fa-solid fa-user"></i> My Name
+          </p>
+          <img class="avatar" src="./assets/imgs/avatar.jpg" alt="avatar">
+        </div>
+        <!-- Descirption -->
+        <p class="my-15 py-12 px-24">
+          Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.
+        </p>
+      </div>
+      <!-- CLASS 02: FLEXBOX -->
+      <div>
+        <p class="sub-title">Im really good at:</p>
+        <ul class="skill-list">
+          <li>
+            <div class="skill-title">
+              <i class="fa-solid fa-camera"></i>
+              <span class="text-wide">Photography</span>
+            </div>
+            <div class="percent-container">
+              <div class="comleted-field" style="width: 90%;">90%</div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-title">
+              <i class="fa-solid fa-image"></i>
+              <span class="text-wide">Web Design</span>
+            </div>
+            <div class="percent-container">
+              <div class="comleted-field" style="width: 85%;">85%</div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-title">
+              <i class="fa-solid fa-display"></i>
+              <span class="text-wide">Photoshop</span>
+            </div>
+            <div class="percent-container">
+              <div class="comleted-field" style="width: 75%;">75%</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FIGURES BAR -->
+    <div class="figures-bar">
+      <div class="figures-item">
+        <span>14+</span>
+        <br>
+        Partners
+      </div>
+      <div class="figures-item">
+        <span>55+</span>
+        <br>
+        Projects Done
+      </div>
+      <div class="figures-item">
+        <span>89+</span>
+        <br>
+        Happy Clients
+      </div>
+      <div class="figures-item">
+        <span>150+</span>
+        <br>
+        Meetings
+      </div>
+    </div>
+    <!-- PORTFOLIO BG -->
+    <div class="bg-container portfolio-bg">
+      <span>PORTFOLIO</span>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="container">
+      <h3 class="title text-center">MY WORK</h3>
+      <p class="text-center my-15">
+        <em>
+          Here are some of my latest lorem work ipsum tipsum. <br>
+          Click on the images to make them bigger
+        </em>
+      </p>
+      <br>
+      <div class="product-list">
+        <div class="product-item"><img src="./assets/imgs/products/p1.jpg" alt="picture 1"></div>
+        <div class="product-item"><img src="./assets/imgs/products/p2.jpg" alt="picture 2"></div>
+        <div class="product-item"><img src="./assets/imgs/products/p3.jpg" alt="picture 3"></div>
+        <div class="product-item"><img src="./assets/imgs/products/p4.jpg" alt="picture 4"></div>
+      </div>
+      <div class="product-list my-16">
+        <div class="product-item"><img src="./assets/imgs/products/p5.jpg" alt="picture 5"></div>
+        <div class="product-item"><img src="./assets/imgs/products/p6.jpg" alt="picture 6"></div>
+        <div class="product-item"><img src="./assets/imgs/products/p7.jpg" alt="picture 7"></div>
+        <div class="product-item"><img src="./assets/imgs/products/p8.jpg" alt="picture 8"></div>
+      </div>
+      <div class="loading-button">
+        <button class="btn">Load more</button>
+      </div>
+    </section>
+
+    <!-- CONTACT BG -->
+    <div class="bg-container contact-bg">
+      <span>CONTACT</span>
+    </div>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="container">
+      <h3 class="title text-center">WHERE I WORK</h3>
+      <p class="text-center my-15">
+        <em>I'd love your feedback!</em>
+      </p>
+      <div class="contact-container">
+        <div class="contact-img"><img src="./assets/imgs/map.jpg" alt="contact image"></div>
+        <div class="info-container">
+          <ul class="info">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>Chicago, US
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              Phone: +00 151515
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              Email: mail@mail.com
+            </li>
+          </ul>
+          <p class="my-15">Swing by for a cup of <i class="fa-solid fa-mug-saucer"></i>, or leave me a note:</p>
+          <form>
+            <div class="form-group">
+              <input class="form-input" type="text" name="name" placeholder="Name" required>
+              <input class="form-input" type="email" name="email" placeholder="Email" required>
+              <input class="form-input" type="message" name="message" placeholder="Message" required>
+            </div>
+            <div class="submit-btn">
+              <button type="submit" class="btn dark">
+                <i class="fa-solid fa-paper-plane"></i>Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <a class="to-top-btn" href="#home">
+        <i class="fa-solid fa-arrow-up"></i>To the top
+      </a>
+      <div class="social-list">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-snapchat"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Powered by <a class="copy-right" href="#">w3.css</a></p>
+    </footer>
+  </div>
+
+  <script async src="./main.js"></script>
+</body>
+
+</html>
